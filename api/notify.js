@@ -21,7 +21,7 @@ export default async function handler(req, res) {
 
   const { error } = await supabase
     .from("landing_signups")
-    .insert({ email, source: "salmatek" });
+    .insert({ email });
 
   if (error) {
     if (error.code === "23505") {
