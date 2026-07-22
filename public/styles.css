@@ -68,7 +68,7 @@ body {
 .mark-line {
   fill: none;
   stroke: var(--text);
-  stroke-width: 2.5;
+  stroke-width: 6;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 100;
@@ -93,10 +93,10 @@ body {
 
 .wordmark {
   font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.16em;
-  margin: 0 0 4px;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.14em;
+  margin: 0 0 6px;
 }
 
 .tagline {
