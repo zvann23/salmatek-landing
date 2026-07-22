@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salmatek — Coming Soon</title>
+  <meta name="description" content="Salmatek. Coming soon." />
+  <link rel="icon" href="/assets/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <div class="mark">
+      <span class="mark-text">Salmatek</span>
+    </div>
+
+    <p class="eyebrow">Technology &amp; innovation</p>
+
+    <h1 class="headline">Coming soon.</h1>
+
+    <p class="sub">
+      We're building something new. Leave your email and we'll let you know
+      the moment it's ready.
+    </p>
+
+    <form id="notify-form" class="notify-form" novalidate>
+      <label for="email" class="sr-only">Your email address</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        inputmode="email"
+        autocomplete="email"
+        placeholder="you@email.com"
+        required
+      />
+      <button type="submit" id="notify-btn">
+        <span class="btn-label">Notify me</span>
+        <span class="btn-spinner" aria-hidden="true"></span>
+      </button>
+    </form>
+
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="foot">
+    <span>© <span id="year"></span> Salmatek</span>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
