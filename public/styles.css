@@ -53,7 +53,7 @@ body {
 
 .mark {
   margin: 0 auto 20px;
-  width: 130px;
+  width: 220px;
 }
 
 .mark svg {
@@ -97,11 +97,22 @@ body {
 }
 
 .tagline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-dim);
   margin: 0 0 40px;
+}
+
+.tagline-dash {
+  width: 28px;
+  height: 1px;
+  background: var(--text-dim);
+  flex-shrink: 0;
 }
 
 .eyebrow {
