@@ -1,8 +1,5 @@
 {
   "name": "salmatek-landing",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@supabase/supabase-js": "^2.47.0"
-  }
+  "private": true
 }
